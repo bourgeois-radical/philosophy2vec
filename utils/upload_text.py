@@ -6,7 +6,7 @@ def get_text(path: pathlib.WindowsPath) -> str:
 
     Parameters
     ----------
-    path: pathlib.WindowsPath
+    path : pathlib.WindowsPath
 
     Returns
     -------

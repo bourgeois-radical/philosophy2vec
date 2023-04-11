@@ -126,7 +126,7 @@ def build_skip_gram_dataset(text_as_preprocessed_tokens: List[str], vocab_df: pd
 
 
 class Word2VecDataset(Dataset):
-    """DataLoader for PyTorch model"""
+    """Dataset for DataLoader"""
 
     def __init__(self, X: torch.LongTensor, y: Union[torch.LongTensor, np.ndarray]) -> None:
         self.X = X
