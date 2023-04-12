@@ -28,5 +28,13 @@ philosophers)
 3. Comparison of similarity of English and German embeddings for the same
 philosopher i.e. corpora (two languages, one philosopher)
 
+### Inferences
+
+### How to use
+
+### References
+
+### Known Issues and TODO-s:
+
 
 
