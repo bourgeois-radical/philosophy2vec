@@ -1,7 +1,9 @@
+# built-in libraries
 import string
 import re
 from typing import List
 
+# installed libraries
 import spacy
 import nltk
 from nltk.stem.wordnet import WordNetLemmatizer
