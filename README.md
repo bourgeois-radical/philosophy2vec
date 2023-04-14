@@ -7,7 +7,6 @@ This project is a part of the means of assessment for the mandatory course
 program at Trier University in the winter semester 22/23. 
 
 ### Corpora:
-
 The texts of great German philosophers Hegel and Kant were chosen as the
 corpora for training the model, namely:
 
@@ -22,7 +21,6 @@ corpora (`DE_KANT_CORPUS.txt`, `ENG_KANT_CORPUS.txt`) and the other two Hegel’
 (`DE_HEGEL_CORPUS.txt`, `ENG_HEGEL_CORPUS.txt`).
 
 ### Main Tasks:
-
 1. From-scratch implementation of Skip-Gram architecture: *from raw .txt files to embeddings*
 
 2. Comparison of embeddings' similarity of the most frequently encountered
@@ -34,15 +32,14 @@ philosopher i.e. corpora (two languages, one philosopher)
 
 ### Outcomes
 
-#### Task 1.
-
+#### Task 1
 [Top-k-accuracy](https://pytorch.org/docs/stable/generated/torch.topk.html) was used for model evaluation.
 
 Check the results here:
 * [Window size = 3, stop words included.](https://drive.google.com/drive/folders/1TCP6JXWiHNIi86XK45cPJnp_CsjQe0Sc?usp=sharing)
 * [Window size = 4, without stop words.](https://drive.google.com/drive/folders/1pj_4nvWPVXE2CrqOw9xCQZ2vyuyZIQyc?usp=sharing)
 
-#### Task 2.
+#### Task 2
 Comparison algorithm for one term looks as follows:
 1. Take a term from Hegel’s vocabulary.
 2. Find k-nearest terms for the selected term by means of cosine distance in
@@ -77,11 +74,9 @@ interesting ones are:
 * _(&#39;animal&#39;, &#39;plant&#39;)_
 * _(&#39;negative&#39;, &#39;positive&#39;)_
 
-
 ### Inferences
 
 #### Task 2
-
 We observe fewer overlaps in German than it is in English corpora. One may assume the following reason: 
 in general, German has more words than English, that's why density of occurence of a certain word in a German text can be
 lower than of an English one. That implies a lesser chance to encounter this particular word in a context window 
@@ -93,7 +88,6 @@ as well as of philosophical sense (e.g.: `('world', 'intelligence')`, `('subjekt
 `('notwendig', 'kausalität')`) in the corpora, but the results for English and German embeddings hardly coincide with each other.
 
 #### Task 3
-
 Given the results obtained in Task 1, one may assume that patterns, which would let conclude English and German 
 embeddings are similar to some reasonable extent, are hardly to discover. The most evident explanation 
 of this fact is the syntactical differences between the two languages. Moreover, in order to accomplish this task by
@@ -119,14 +113,11 @@ in vector space. (International Conference on Learning Representations, ICLR, 20
 Chernytska, Olga. (2021). Word2vec with PyTorch: Implementing the Original Paper.
 https://towardsdatascience.com/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0
 
-
 ### Weak Points
-
 * No errors and exceptions inside the modules.
 * Modest corpora. 
 
 ### TODO
-
 * A matching function between English and German vocabularies.
 * A function which prepares training data for CBOW architecture.
 
