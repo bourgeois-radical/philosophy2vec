@@ -79,7 +79,7 @@ lower than of an English one which implies a lesser chance to encounter this par
 of some center word.
 
 We observe that Skip-Gram catches synonymous and antonymous patterns of common sense (e.g.:
-`(&#39;law&#39;, &#39;rule&#39;)`, `(&#39;negative&#39;, &#39;positive&#39;)`, `(&#39;ganze&#39;, &#39;mannigfaltige&#39;)`) 
+`('law', &#39;rule&#39;)`, `(&#39;negative&#39;, &#39;positive&#39;)`, `(&#39;ganze&#39;, &#39;mannigfaltige&#39;)`) 
 as well as of philosophical sense (e.g.: `(&#39;world&#39;, &#39;intelligence&#39;)`, `(&#39;subjekt&#39;, &#39;prädikat&#39;)`,
 `(&#39;notwendig&#39;, &#39;kausalität&#39;)`) in the corpora, but the results for English and German embeddings hardly coincide with each other.
 
