@@ -11,6 +11,7 @@ __pycache__/
 !DE_KANT_CORPUS.txt
 !ENG_HEGEL_CORPUS.txt
 !ENG_KANT_CORPUS.txt
+!requirements.txt
 
 # Don't track .pdf files
 *.pdf
