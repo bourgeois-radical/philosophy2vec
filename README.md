@@ -36,8 +36,8 @@ philosopher i.e. corpora (two languages, one philosopher)
 [Top-k-accuracy](https://pytorch.org/docs/stable/generated/torch.topk.html) was used for model evaluation.
 
 Check the results here:
-* [Window size = 3, stop words included.](https://drive.google.com/drive/folders/1TCP6JXWiHNIi86XK45cPJnp_CsjQe0Sc?usp=sharing)
-* [Window size = 4, without stop words.](https://drive.google.com/drive/folders/1pj_4nvWPVXE2CrqOw9xCQZ2vyuyZIQyc?usp=sharing)
+* [Window size = 3, stop words included.](https://drive.google.com/drive/folders/1TCP6JXWiHNIi86XK45cPJnp_CsjQe0Sc?usp=sharing) (used in Outcomes and Inferences)
+* [Window size = 4, without stop words.](https://drive.google.com/drive/folders/1pj_4nvWPVXE2CrqOw9xCQZ2vyuyZIQyc?usp=sharing) (bad results without stopwords due to relatively small corpora)
 
 #### Task 2
 Comparison algorithm for one term looks as follows:
