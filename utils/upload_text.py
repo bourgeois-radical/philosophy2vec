@@ -1,4 +1,4 @@
-# built-in libraries
+# built-in modules and packages
 import pathlib
 
 

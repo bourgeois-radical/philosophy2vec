@@ -1,8 +1,8 @@
-# built-in libraries
+# built-in modules and packages
 from collections import Counter
 from typing import Tuple, Dict, List, Union
 
-# installed libraries
+# installed modules and packages
 import torch
 import numpy as np
 import pandas as pd
