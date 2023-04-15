@@ -1,7 +1,7 @@
-# built-in modules and packages
+# built-in
 from typing import Tuple, Dict, List
 
-# installed modules and packages
+# installed
 import torch
 import torch.nn as nn
 import numpy as np
@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from scipy.spatial.distance import cosine
 from scipy.spatial.distance import euclidean
 
-# local modules and packages
+# local
 import utils.model
 from utils.model import Word2VecModel
 from utils.preprocessing import DefaultPreprocess
