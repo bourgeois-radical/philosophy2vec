@@ -107,8 +107,8 @@ Feel free to explore notebooks in `./notebooks/task_a` folder to train the model
 You can simply add these folders into project's root after the `git clone` command given above having been done.
 
 ## References
-Mikolov T, Chen K, Corrado G, Dean J., Efficient estimation of word representations
-in vector space. (International Conference on Learning Representations, ICLR, 2013)
+Mikolov, T., Chen, K., Corrado, G. & Dean J. (2013) Efficient estimation of word representations
+in vector space. _International Conference on Learning Representations_. ICLR
 
 Chernytska, Olga. (2021). Word2vec with PyTorch: Implementing the Original Paper.
 https://towardsdatascience.com/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0
