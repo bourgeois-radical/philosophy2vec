@@ -41,13 +41,13 @@ corpora (`DE_KANT_CORPUS.txt`, `ENG_KANT_CORPUS.txt`) and the other two Hegel’
     <details><summary>Hegel. English corpora.</summary>  
         <p>
             <img src="plots_and_results/ws_3/hegel_eng_ws_3.png">
-            <i>X-axis: epochs. Y-axis: loss. </i> <br/> <br/>
-            <code>The number of tokens with stop words is: 362327 <br/> model_type: skipgram <br/> \
-n_epochs: 3 <br/><br/>
+            <i>X-axis: epochs. Y-axis: loss. </i> <br/>
+            <code>The number of tokens with stop words is: 362327 <br/> model_type: skipgram <br/>
+n_epochs: 3 <br/>
 learning process: <br/>
 epoch #0   : 5.31799 <br/>
 epoch #1   : 5.27113 <br/>
-epoch #2   : 5.27104 <br/><br/>
+epoch #2   : 5.27104 <br/>
 top_k_accuracy: 38.1010 % <br/></code>
         </p>
     </details>
@@ -56,16 +56,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_3/hegel_de_ws_3.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>            
-                The number of tokens with stop words is: 467522 <br/>        
-                model_type: skipgram <br/>
-                n_epochs: 3 <br/><br/>            
-                learning process:            
-                epoch #0   : 5.65144 <br/>
-                epoch #1   : 5.61443 <br/>
-                epoch #2   : 5.61461 <br/> <br/>       
-                top_k_accuracy: 31.6584 % <br/>
-            </code>
+            <code>The number of tokens with stop words is: 467522<br/>        
+model_type: skipgram <br/>
+n_epochs: 3 <br/><br/>            
+learning process:            
+epoch #0   : 5.65144 <br/>
+epoch #1   : 5.61443 <br/>
+epoch #2   : 5.61461 <br/> <br/>       
+top_k_accuracy: 31.6584 % <br/></code>
         </p>
     </details>
     <br/>
@@ -73,16 +71,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_3/kant_eng_ws_3.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>
-                The number of tokens with stop words is: 315827<br/>
-                model_type: skipgram<br/>
-                n_epochs: 3<br/><br/>
-                learning process:<br/>
-                epoch #0   : 5.36279<br/>
-                epoch #1   : 5.31585<br/>
-                epoch #2   : 5.31617<br/><br/>
-                top_k_accuracy: 34.6409 %<br/>
-            </code>
+            <code>The number of tokens with stop words is: 315827<br/>
+model_type: skipgram<br/>
+n_epochs: 3<br/><br/>
+learning process:<br/>
+epoch #0   : 5.36279<br/>
+epoch #1   : 5.31585<br/>
+epoch #2   : 5.31617<br/><br/>
+top_k_accuracy: 34.6409 %<br/></code>
         </p>
     </details>
     <br/>
@@ -90,16 +86,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_3/kant_de_ws_3.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>
-                The number of tokens with stop words is: 298261<br/>
-                model_type: skipgram<br/>
-                n_epochs: 3<br/><br/>
-                learning process: <br/>
-                epoch #0   : 5.74098<br/>
-                epoch #1   : 5.68213<br/>
-                epoch #2   : 5.68369<br/><br/>
-                top_k_accuracy: 28.5318 %<br/>
-            </code>
+            <code>The number of tokens with stop words is: 298261<br/>
+model_type: skipgram<br/>
+n_epochs: 3<br/><br/>
+learning process: <br/>
+epoch #0   : 5.74098<br/>
+epoch #1   : 5.68213<br/>
+epoch #2   : 5.68369<br/><br/>
+top_k_accuracy: 28.5318 %<br/></code>
         </p>
     </details>
     <br/>
@@ -111,16 +105,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_4/hegel_eng_ws_4.png">
             <i>X-axis: epochs. Y-axis: loss. </i> <br/> <br/>
-            <code>                
-                The number of tokens without stop words is: 162465 <br/>
-                model_type: skipgram <br/>
-                n_epochs: 3 <br/><br/>              
-                learning process: <br/>                
-                epoch #0   : 5.90114 <br/>
-                epoch #1   : 5.81368 <br/>
-                epoch #2   : 5.81743 <br/><br/>                
-                top_k_accuracy: 25.2885 % <br/>
-            </code>
+            <code>The number of tokens without stop words is: 162465 <br/>
+model_type: skipgram <br/>
+n_epochs: 3 <br/><br/>              
+learning process: <br/>                
+epoch #0   : 5.90114 <br/>
+epoch #1   : 5.81368 <br/>
+epoch #2   : 5.81743 <br/><br/>                
+top_k_accuracy: 25.2885 % <br/></code>
         </p>
     </details>
     <br/>
@@ -128,16 +120,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_4/hegel_de_ws_4.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>            
-                The number of tokens without stop words is: 197889 <br/>                
-                model_type: skipgram <br/>
-                n_epochs: 3 <br/><br/>               
-                learning process: <br/>               
-                epoch #0   : 6.06156 <br/>
-                epoch #1   : 5.97466 <br/>
-                epoch #2   : 5.97703 <br/><br/>
-                top_k_accuracy: 24.8394 %<br/>
-            </code>
+            <code>The number of tokens without stop words is: 197889 <br/>                
+model_type: skipgram <br/>
+n_epochs: 3 <br/><br/>               
+learning process: <br/>               
+epoch #0   : 6.06156 <br/>
+epoch #1   : 5.97466 <br/>
+epoch #2   : 5.97703 <br/><br/>
+top_k_accuracy: 24.8394 %<br/></code>
         </p>
     </details>
     <br/>
@@ -145,16 +135,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_4/kant_eng_ws_4.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>
-                The number of tokens without stop words is: 149318 <br/>                
-                model_type: skipgram <br/>
-                n_epochs: 3 <br/><br/>           
-                learning process: <br/>             
-                epoch #0   : 5.92340 <br/>
-                epoch #1   : 5.84349 <br/>
-                epoch #2   : 5.84634  <br/><br/>              
-                top_k_accuracy: 22.7848 %<br/>
-            </code>
+            <code> The number of tokens without stop words is: 149318 <br/>                
+model_type: skipgram <br/>
+n_epochs: 3 <br/><br/>           
+learning process: <br/>             
+epoch #0   : 5.92340 <br/>
+epoch #1   : 5.84349 <br/>
+epoch #2   : 5.84634  <br/><br/>              
+top_k_accuracy: 22.7848 %<br/></code>
         </p>
     </details>
     <br/>
@@ -162,16 +150,14 @@ top_k_accuracy: 38.1010 % <br/></code>
         <p>
             <img src="plots_and_results/ws_4/kant_de_ws_4.png">
             <i>X-axis: epochs. Y-axis: loss.</i> <br/> <br/>
-            <code>
-                The number of tokens without stop words is: 140509 <br/>               
-                model_type: skipgram <br/>
-                n_epochs: 3 <br/><br/>            
-                learning process: <br/>              
-                epoch #0   : 5.74606 <br/>
-                epoch #1   : 5.61755 <br/>
-                epoch #2   : 5.62053 <br/> <br/>          
-                top_k_accuracy: 30.7310 %<br/>
-            </code>
+            <code>The number of tokens without stop words is: 140509 <br/>               
+model_type: skipgram <br/>
+n_epochs: 3 <br/><br/>            
+learning process: <br/>              
+epoch #0   : 5.74606 <br/>
+epoch #1   : 5.61755 <br/>
+epoch #2   : 5.62053 <br/> <br/>          
+top_k_accuracy: 30.7310 %<br/></code>
         </p>
     </details>
 </details>
