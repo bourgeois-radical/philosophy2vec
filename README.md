@@ -42,15 +42,13 @@ corpora (`DE_KANT_CORPUS.txt`, `ENG_KANT_CORPUS.txt`) and the other two Hegel’
         <p>
             <img src="plots_and_results/ws_3/hegel_eng_ws_3.png">
             <i>X-axis: epochs. Y-axis: loss. </i> <br/> <br/>
-            <code>
-                The number of tokens with stop words is: 362327 <br/>
-                model_type: skipgram <br/> 
-                n_epochs: 3 <br/><br/>
-                learning process: <br/>
-                epoch #0   : 5.31799 <br/>
-                epoch #1   : 5.27113 <br/>
-                epoch #2   : 5.27104 <br/><br/>
-                top_k_accuracy: 38.1010 % <br/>
+            <code> The number of tokens with stop words is: 362327 <br/> model_type: skipgram <br/> \
+n_epochs: 3 <br/><br/>
+learning process: <br/>
+epoch #0   : 5.31799 <br/>
+epoch #1   : 5.27113 <br/>
+epoch #2   : 5.27104 <br/><br/>
+top_k_accuracy: 38.1010 % <br/>
             </code>
         </p>
     </details>
