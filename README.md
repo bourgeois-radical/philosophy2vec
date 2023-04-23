@@ -107,8 +107,6 @@ corpora (`DE_KANT_CORPUS.txt`, `ENG_KANT_CORPUS.txt`) and the other two Hegel’
     </details>
     <br/>
 </details>
-<br/>
-
 <details>
     <summary><b><i>Window size = 4, without stop words (used for outcomes and inferences in Task 2 and Task 3; 
                     worse results without stopwords due to relatively small corpora).</i></b></summary><br/>
