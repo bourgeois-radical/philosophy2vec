@@ -261,7 +261,7 @@ class Word2Vec:
                                                    shuffle=True)
 
         # INITIALIZE THE MODEL
-        model = Word2VecModel(vocab_vocab_len=len(vocab), model_type=model_type, embd_dim=300, embd_max_norm=1)
+        model = Word2VecModel(vocab_len=len(vocab), model_type=model_type, embd_dim=300, embd_max_norm=1)
         loss_function = nn.CrossEntropyLoss()
         learning_rate = 0.1
         optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
