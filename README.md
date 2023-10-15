@@ -1,4 +1,4 @@
-# Self-trained philosophical word2vec embeddings
+# Self-trained word2vec embeddings for philosophical terms
 
 ## ...obtained out of Hegel's and Kant's corpora.
 
